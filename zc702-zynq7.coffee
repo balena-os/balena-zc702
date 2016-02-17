@@ -21,7 +21,7 @@ module.exports =
 		machine: 'zc702-zynq7'
 		image: 'resin-image'
 		fstype: 'resin-sdcard'
-		version: 'yocto-fido'
+		version: 'yocto-jethro'
 		deployArtifact: 'resin-image-zc702-zynq7.resin-sdcard'
 
 	configuration:
