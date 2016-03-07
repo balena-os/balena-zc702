@@ -6,7 +6,7 @@ module.exports =
 	aliases: [ 'zc702-zynq7' ]
 	name: 'Zynq ZC702'
 	arch: 'armv7hf'
-	state: 'preview'
+	state: 'released'
 
 	instructions: commonImg.instructions
 	gettingStartedLink:
