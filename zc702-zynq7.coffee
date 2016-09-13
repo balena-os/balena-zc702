@@ -2,6 +2,7 @@ deviceTypesCommon = require 'resin-device-types/common'
 { networkOptions, commonImg, instructions } = deviceTypesCommon
 
 module.exports =
+	version: 1
 	slug: 'zynq-xz702'
 	aliases: [ 'zc702-zynq7' ]
 	name: 'Zynq ZC702'
@@ -28,6 +29,5 @@ module.exports =
 	configuration:
 		config:
 			partition:
-				primary: 4
-				logical: 1
+				primary: 1
 			path: '/config.json'
