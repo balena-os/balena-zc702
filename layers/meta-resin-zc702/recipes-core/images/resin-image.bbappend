@@ -1,6 +1,6 @@
-IMAGE_FSTYPES_append_zc702-zynq7 = " resin-sdcard"
+IMAGE_FSTYPES_append_zc702-zynq7 = " resinos-img"
 
-# Customize resin-sdcard
+# Customize resinos-img
 RESIN_BOOT_PARTITION_FILES_zc702-zynq7 = " \
     boot.bin: \
     u-boot-${MACHINE}.img:/u-boot-dtb.img \
